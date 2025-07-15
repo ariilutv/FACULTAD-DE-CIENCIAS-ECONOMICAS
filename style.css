@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  background: #f7f7f7;
+  padding: 20px;
+}
+.semestre {
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background: white;
+}
+.semestre h3 {
+  text-align: center;
+  margin: 5px 0 10px;
+}
+.materia {
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+  opacity: 1;
+}
+.aprobado {
+  text-decoration: line-through;
+  filter: brightness(0.7);
+}
+.bloqueado {
+  background: #ccc !important;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.rosado { background: #ffd6e7; }
+.verde { background: #c2f0c2; }
+.celeste { background: #cce8ff; }
+.morado { background: #e2ccff; }
+.naranja { background: #ffdfbf; }
+.rojo { background: #ffb3b3; }
